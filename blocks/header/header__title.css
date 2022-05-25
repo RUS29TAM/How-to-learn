@@ -1,0 +1,14 @@
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  right: 64px;
+  margin: 0;
+  padding: 0;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  border: 1px solid red;
+  font-family: 'Inter', 'Arial', sans-serif;
+}

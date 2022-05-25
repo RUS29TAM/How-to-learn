@@ -1,3 +1,11 @@
+@import url(../blocks/logo/logo_place_header.css);
+@import url(../blocks/header/header__title.css);
+@import url(../blocks/header/header__subtitle.css);
+@import url(../blocks/image/header__cards_image.css);
+@import url(../blocks/image/header__square-pic.css);
+@import url(../blocks/header/header__square-pic.css);
+@import url(../blocks/header/header.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,20 +14,11 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+  font-family: 'Inter', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: absolute;
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +28,7 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+div {
+  border: 1px solid rgb(0, 217, 255);
+  }
