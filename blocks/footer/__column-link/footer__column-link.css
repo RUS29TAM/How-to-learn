@@ -1,0 +1,25 @@
+.footer__column-link {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  text-decoration: none;
+  margin-bottom: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  vertical-align: middle;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: white;
+}
+
+
+.footer__column-link:hover {
+  opacity: .7;
+  color: rgb(128, 128, 128);
+}
+
+.footer__column-link:active {
+  opacity: .7;
+  color: #2f80ed;
+}
